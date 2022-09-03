@@ -4,7 +4,6 @@
 <html lang="ko">
   <head>
     <%- include('./particle/head') %>
-    <script src="../index.js"></script>
   </head>
   <body>
     hi
@@ -13,7 +12,7 @@
     <main>
       <h1>ejs for문 써보기!</h1>
       <%for(let i=0; i<5; i++){%>
-      <h3>5시간동안 작성한게 날라갔어요,,화가<%=i+1%>번 나요..</h3>
+      <h3>for문 돌리기 <%=i+1%>번째</h3>
       <%}%>
 
       <h2>LOOP!!</h2>
